@@ -14,6 +14,7 @@ fn main() {
     println!("git-tag-update-end");
 
     let str_answer = answer.as_string().unwrap();
+    println!("str_answer: {}", str_answer);
 
     /* command: git tag -a tag */
     let output = std::process::Command::new("git")
